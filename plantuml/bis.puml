@@ -1,0 +1,10 @@
+@startuml
+
+(*) -right-> "Ideation"
+-down-> "Analyser"
+-right-> "Conception"
+-right-> "Codage"
+-right-> "Deploiement"
+-up-> (*)
+
+@enduml
