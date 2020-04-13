@@ -1,10 +1,19 @@
 @startuml
 
+partition MOA {
 (*) -right-> "Ideation"
--down-> "Analyser"
+-down-> === ActivitesMOA ===
+-up-> (*)
+}
+
+partition MOA {
+
+=== ActivitesMOA === -->
+"Analyser"
 -right-> "Conception"
 -right-> "Codage"
 -right-> "Deploiement"
--up-> (*)
+
+}
 
 @enduml
