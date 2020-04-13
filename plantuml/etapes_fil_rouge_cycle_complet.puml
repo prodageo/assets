@@ -1,7 +1,9 @@
 @startuml
 
-(*) --> "First Activity"
--->[You can put also labels] "Second Activity"
---> (*)
+(*) -right-> "Idéation"
+-down-> "Analyser"
+-right-> "Conception"
+-right-> "Codage"
+-up-> "Déploiement" (*)
 
 @enduml
