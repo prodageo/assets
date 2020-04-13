@@ -1,8 +1,7 @@
-@startuml component
-actor client
-node app
-database db
+@startuml
 
-db -> app
-app -> client
+(*) --> "First Activity"
+-->[You can put also labels] "Second Activity"
+--> (*)
+
 @enduml
