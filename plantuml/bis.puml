@@ -6,7 +6,7 @@ partition MOA {
 -up-> (*)
 }
 
-partition MOA {
+partition MOE {
 
 === ActivitesMOA === -->
 "Analyser"
