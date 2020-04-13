@@ -5,6 +5,6 @@
 -right-> "Conception"
 -right-> "Codage"
 -right-> "Deploiement"
--up-> "Deploiement" (*)
+-up-> (*)
 
 @enduml
