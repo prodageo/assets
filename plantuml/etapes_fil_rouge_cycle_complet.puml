@@ -1,9 +1,9 @@
 @startuml
 
-(*) -right-> "Idéation"
+(*) -right-> "Ideation"
 -down-> "Analyser"
 -right-> "Conception"
 -right-> "Codage"
--up-> "Déploiement" (*)
+-up-> "Deploiement" (*)
 
 @enduml
