@@ -4,6 +4,7 @@
 -down-> "Analyser"
 -right-> "Conception"
 -right-> "Codage"
+-right-> "Deploiement"
 -up-> "Deploiement" (*)
 
 @enduml
